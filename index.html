@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neil Kristoffer Orca | Web Developer Portfolio</title>
+   
+    <meta name="description" content="Neil Kristoffer Orca's web developer portfolio featuring projects, skills, and contact information.">
+     
+    <meta property="og:title" content="Neil Kristoffer Orca | Web Developer Portfolio">
+    <meta property="og:description" content="Aspiring web developer with a portfolio of projects.">
+    <meta property="og:image" content="pictures/img.png">
+    <meta property="og:type" content="website">
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init({
+        publicKey: "RkoHiwIqCg0CgYYeB",
+      });
+    })();
+    </script>
+
+
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="pictures/logo3.png" onclick="location.href='#home'" alt="Neil Kristoffer Orca Logo" class="logo-img">
+            <span class="logo-text" onclick="location.href='#home'">Neeiilll</span>
+        </div>
+           
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about" >About</a>
+            <a href="#skills" >Skills</a>
+            <a href="#portfolio" >Portfolio</a>
+            <a href="#contact" >Contact</a>
+        </nav>
+
+    </header>
+
+    <button class="home-button" onclick="location.href='#home'">
+        <i class='bx bxs-chevrons-up'></i>
+    </button>
+
+    <section class="home" id="home">
+
+        <div class="home-content">
+            <svg viewBox="0 0 1500 500" data-aos="fade-down">
+                <text x="50%" y="50%" text-anchor="middle">NEIL KRISTOFFER</text>
+              </svg>
+            <h3>I'm a <span class="text"></span></h3>
+            <p>an aspiring web developer with a passion for both 
+               front-end and back-end development. As a dedicated and hardworking student,
+               I am continuously learning and honing my skills to bring creative and efficient
+               solutions to every project. Explore my work to see how I blend design and
+               functionality to create seamless web experiences!</p>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com/neil.orca.1" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
+                <a href="https://github.com/Kristoffer0221" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/neeiillorca" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+                <a href="https://x.com/neilorcaa" target="_blank"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <a href="#about" class="btn">More About Me!</a>
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+
+        </div>
+
+            <div class="home-img">
+                <img src="pictures/img.png" alt="Neil Kristoffer Orca's Portrait">
+            </div>
+    </section>
+
+    <section class="about" id="about">
+        
+                  <div class="about-img">
+                <img src="pictures/pic2.jpg" alt="Neil Kristoffer Orca's Picture">
+             </div>
+            <div class="about-text">
+                <h2 class="headings">About <span>Me</span></h2>
+                <h4>Hi! I'm <span>Neil Kristoffer Orca</span></h4>
+                <p>I am currently a third-year Bachelor of Science in Computer Science student at Cavite State University - Bacoor. 
+                My studies focus on both the theoretical and practical aspects of computer science, preparing me for a variety 
+                of technology-driven fields. Being in my third year, I'm deepening my knowledge in programming, software development,
+                and systems analysis. This stage of my education is helping me develop the skills needed to tackle real-world computing challenges. 
+                Studying at Cavite State University - Bacoor has provided me with a strong foundation in computer science principles.
+              </p>
+               <a href="cv.pdf" class="btn-cv" target="_blank">My Curriculum Vitae</a>
+            </div>
+        
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="headings">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+            <div class="skills-box">
+                <img src="pictures/html.png">
+                <h3>HTML</h3>
+                <p>(Basic)</p>
+            </div>
+
+            <div class="skills-box">
+                <img src="pictures/css.png">
+                <h3>CSS</h3>
+                <p>(Basic)</p>
+            </div>
+
+            <div class="skills-box">
+                <img src="pictures/python.png">
+                <h3>Pyhton</h3>
+                <p>(Basic)</p>
+            </div>
+
+            <div class="skills-box">
+                <img src="pictures/c.png">
+                <h3>C#</h3>
+                <p>(Basic)</p>
+            </div>
+
+            <div class="skills-box">
+                <img src="pictures/java.png">
+                <h3>Java</h3>
+                <p>(Basic)</p>
+            </div>
+
+            <div class="skills-box">
+                <img src="pictures/mysql.png">
+                <h3>Mysql</h3>
+                <p>(Basic)</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="headings">My <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="pictures/deli.png" alt="Deli Spread Stock Management System">
+                <div class=" portfolio-layer">
+                    <h4>Deli Spread Stock Management System</h4>
+                    <p>Deli Spread Stock Management System is designed to streamline the entire inventory 
+                       and supply chain process.</p>
+                    <div class="view-code">
+                    <a href="https://github.com/Kristoffer0221/Deli-Spread-Stock-Management-System" target="_blank" ><i class='bx bx-code'></i> View </a>
+                    </div>
+   
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pictures/cal.png" alt="Calculator">
+                <div class=" portfolio-layer">
+                    <h4>Calculator</h4>
+                    <p>My calculator project is a web-based tool that performs basic arithmetic operations 
+                      like addition, subtraction, multiplication, and division.</p>
+                      <div class="view-code">
+                        <a href="https://github.com/Kristoffer0221/Calculator/tree/main/Calculator" target="_blank" ><i class='bx bx-code'></i> View  </a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pictures/id.png" alt="Personal ID">
+                <div class=" portfolio-layer">
+                    <h4>Personal Profile</h4>
+                    <p>A personal profile is meant to give others a quick, engaging insight into who you are.</p>
+                    <div class="view-code">
+                        <a href="https://github.com/Kristoffer0221/Personal-ID/tree/main/Personal%20ID" target="_blank" ><i class='bx bx-code'></i> View</a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pictures/webDeli.png" alt="Deli Spread Website">
+                <div class=" portfolio-layer">
+                    <h4>Deli Spread Website</h4>
+                    <p>The Deli Spread website is likely a web-based platform.</p>
+                    <div class="view-code">
+                        <a href="https://github.com/Kristoffer0221/Web-Deli/tree/main/DeliSPread" target="_blank" ><i class='bx bx-code'></i> View </a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pictures/snake.png" alt="Snake Game">
+                <div class=" portfolio-layer">
+                    <h4>Snake Game</h4>
+                    <p>The Snake Game is a classic arcade-style video game where players control a snake that moves around a grid.</p>
+                    <div class="view-code">
+                        <a href="https://github.com/Kristoffer0221/Snake-Game/tree/main/SNAKE" target="_blank" ><i class='bx bx-code'></i> View </a>
+                        </div>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="pictures/gradeChecker.png" alt="Grade Checker">
+                <div class=" portfolio-layer">
+                    <h4>Grade Checker</h4>
+                    <p>A Grade Checker is a tool or system designed to help students, teachers, or 
+                        administrators track and analyze academic performance through grades. </p>
+                        <div class="view-code">
+                            <a href="https://github.com/Kristoffer0221/Grade-Checker/blob/main/grade.html" target="_blank" ><i class='bx bx-code'></i> View </a>
+                        </div>
+                </div>
+            </div>
+        </div>      
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+    
+        <form onsubmit="emailSend(); reset(); return false;">
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+                <input type="text" id="subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" onclick="emailSend()" value="Send Message" class="btn">
+        </form>
+    
+        <div id="successModal" class="modal">
+            <div class="modal-content success">
+                <p>Email sent successfully!</p>
+                <button class="ok-button" onclick="closeModal()">OK</button>
+            </div>
+        </div>
+    
+        <div id="failureModal" class="modal">
+            <div class="modal-content failure">
+                <p>Failed to send email. Please try again later.</p>
+                <button class="ok-button" onclick="closeModal()">OK</button>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="footer-container">
+
+            <div class="footer-content">
+                <p>&copy; 2024 Neil Kristoffer Orca . All rights reserved</p>
+            </div>
+          
+           <div class="footer-content">
+                <ul class="socmed">
+                <li><a href="https://www.facebook.com/neil.orca.1" target="_blank"><i class='bx bxl-facebook-circle' ></i></a></li>
+                <li><a href="https://github.com/Kristoffer0221" target="_blank"><i class='bx bxl-github'></i></a></li>
+                <li><a href="https://www.instagram.com/neeiillorca" target="_blank"><i class='bx bxl-instagram-alt' ></i></a></li>
+                <li><a href="https://x.com/neilorcaa" target="_blank"><i class='bx bxl-twitter'></i></a></li>
+                </ul>
+            </div>
+               
+        </div>
+        
+    </footer>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+</html>
